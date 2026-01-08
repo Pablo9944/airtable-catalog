@@ -10,12 +10,12 @@
 <h2>Открываем форму…</h2>
 
 <script>
-  const url = "https://airtable.com/appJmdJbWBZdNxggp/shrAVgyFnFGageMD9";
+  const url = "https://airtable.com/embed/appJmdJbWBZdNxggp/shrAVgyFnFGageMD9";
   const ua = navigator.userAgent.toLowerCase();
 
   if (ua.includes("android")) {
     window.location.href =
-      "intent://airtable.com/appJmdJbWBZdNxggp/shrAVgyFnFGageMD9#Intent;scheme=https;package=com.android.chrome;end";
+      "intent://airtable.com/embed/appJmdJbWBZdNxggp/shrAVgyFnFGageMD9#Intent;scheme=https;package=com.android.chrome;end";
   } else {
     document.body.innerHTML = `
       <h2>Откройте форму в браузере</h2>
